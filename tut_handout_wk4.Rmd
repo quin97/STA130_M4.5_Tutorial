@@ -1,0 +1,96 @@
+---
+title: "STA130H1S -- Fall 2022"
+subtitle: Week 4 Tutorial Handout
+output: pdf_document
+---
+
+#### Today's agenda (5 min):  
+
+- Hypothesis test walk-through (can emphasize/explain vocab here)
+
+- Group Presentation
+
+- Q&A/Vocabulary list (if time allows)
+
+- Type I/II error discussion (if time allows, on a separate handout)
+
+
+#### Hypothesis test walk-through (15-20 min) :
+
+
+- **Statistical Inference for a Single Sample Proportion**:
+
+  1. State null hypothesis $H_0$ and alternative hypothesis $H_1$
+
+  2. Calculate a *test statistic* based on one observed *random sample*
+
+  3. *Simulate* samples under $H_0$ and calculate the statictic for the simulated sample. Repeat many times. (this constitutes our estimated *sampling distribution*)
+
+  4. Evaluate the evidence against $H_0$ by calculating the *p-value*
+
+  5. Make a conclusion (based on the strength of evidence against $H_0$)
+
+
+- **Permutation Tests for Two Groups**:
+
+  1. State null hypothesis $H_0$ and alternative hypothesis $H_1$
+
+  2. Calculate the *statistic* (mean, median, proportion ...) of the two groups from the one observed *random sample*, and use the DIFFERENCE between the statistics of the two groups as the *test statistic*
+
+  3. Shuffle the labels of the two groups (i.e. simulation under $H_0$) and calculate the *test statistic* for the simulated sample. Repeat many times.
+
+  4. Evaluate the evidence against $H_0$ by calculating the *p-value*
+
+  5. Make a conclusion (based on the strength of evidence against $H_0$)
+
+#### Group Presentation (50 min) :
+
+*I will post the following material on Quercus in advance for students to access*
+
+You are an amateur data detective that reads studies in your free time and checks whether the researchers conform to academic integrity. Here are some studies that you recently found. Identify the hypotheses (One-Group or Two-Group) of the researchers and describe how you could validate the findings using a simulation test. Make a presentation on your hypothesis test.
+
+### SCENARIOS
+
+(a) A health survey asked 200 individuals aged 20-45 living in Toronto to report the number minutes they exercised last week. Researchers were interested in determining whether the average duration of exercise differed between people who consume cannabis and those who do not consume cannabis. Assume the researchers who conducted this study found that people who used cannabis exercised, on average, 20 minutes per week. In contrast, people who did not use cannabis exercised 40 minutes per week, on average. The researchers reported a p-value of 0.249.
+
+(b) A study was conducted to examine whether a mother's exposure to alcohol while she was pregnant affects the odds of developemntal disabilities. The researchers used a birth registry of all children born in Ontario in 2018, which included approximately 130,000 births. The researchers found that 0.6% of mothers reported that their babies have developmental disabilities and 56% of babies born to mothers who consumed alcohol at least once during pregnancy. In contrast, 55% of healthy babies were born to mothers who were not exposed to alcohol. The researchers reported a p-value of 0.50.
+
+(c) A group of researchers wanted to find out whether completing a degree in Statistics is a worthy inverstment for an individual. They conducted a survey of graduates from the University of Toronto and included 1,000 recent graduates who completed their Bachelor’s degree in the last five years in the study; 80% of the respondents were female and 20% were male.The median reported income of a UofT graduate was \$76,000. Among statistics graduates, the median reported income was \$84,000. The researchers reported a p-value of 0.014.
+
+(d) A team of researchers were interested in understanding millennial’s views regarding housing affordability in Toronto. The team interviewed 850 millennials currently living in Toronto. 84% reported that they felt housing prices were unaffordable in the city. Suppose the researchers were interested in testing whether this proportion was different from a study published last year, which found that 92% of millennials reported that housing costs were unaffordable. The researchers reported a p-value of 0.023.
+
+(e) Suppose a drug company was interested in testing a new weight-loss drug. They enrolled 20,000 participants and assigned 10,000 to take their new drug, SlimX, and 10,000 to take a placebo. The researchers found that over 2 months, participants who took SlimX lost, on average, 5 lbs. In comparison, the control group lost 4.5 lbs during the same time. The researchers reported a p-value of <0.0001.
+
+### In your presentation, it is important to:  
+
+- Give an introduction of the question
+- State the hypotheses $H_0$ and $H_1$ 
+- Specify the assumption(s) of your hypothesis test, if any
+- Describe the procedures for data collection (sampling) and simulation
+- Include and explain at least two terms from the vocabulary
+- Summarize your findings and interpret the results 
+- Provide limitations (optional but good practice) (e.g. sample size, study design issue)
+
+
+## Vocabulary 
+- statistical inference 
+- population 
+- random sample 
+- sampling distribution 
+- simulation 
+- parameter 
+- simulation statistic 
+- test statistic 
+- p-value
+
+
+
+#### This Week's Vocab (15-20 min) :
+
+- vocabs required for the group presentation 
+- Type 1 and 2 errors (also written as Type I and II errors)
+- Comparing two population means/medians/proportions
+- One- and two-group hypothesis tests
+- for() loops
+- sample()
+- diff()
