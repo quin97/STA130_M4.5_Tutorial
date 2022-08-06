@@ -18,30 +18,47 @@ output: pdf_document
 #### Hypothesis test walk-through (15-20 min) :
 
 
-- **Statistical Inference for a Single Sample Proportion**:
+  1. State null hypothesis $H_0$ and alternative hypothesis $H_1: H_0$ is `FALSE`.
+  
+  2. Choose the $\alpha$-significance level at which the null hypothesis will be rejected (for p-values smaller than $\alpha$).
 
-  1. State null hypothesis $H_0$ and alternative hypothesis $H_1$
+  3. *Simulate* a chosen number of samples (e.g., 10,000 will provided quite good simulation resolution) from the sampling distribution of the *test statistic* under the assumption that $H_0$ is true.
+  
+      - for one-sample hypothesis test, the *test statistic* will be same as the *statistic* (mean, median, proportion ...) of the group
+    
+      - for two-sample hypothesis test, the *test statistic* will be the difference between the *statistic* of the two groups
 
-  2. Calculate a *test statistic* based on one observed *random sample*
+  4. Compute the  *observed test statistic* and the *p-value* of the *observed test statistic* relative to the above sampling distribution. 
 
-  3. *Simulate* samples under $H_0$ and calculate the statictic for the simulated sample. Repeat many times. (this constitutes our estimated *sampling distribution*)
+  5. “Reject H0 at the $\alpha$-significance level” if the p-value is less than $\alpha$; otherwise, “fail to reject H0 at the $\alpha$-significance level".
+  
 
-  4. Evaluate the evidence against $H_0$ by calculating the *p-value*
+<!-- - **Statistical Inference for a Single Sample Proportion**: -->
 
-  5. Make a conclusion (based on the strength of evidence against $H_0$)
+<!--   1. State null hypothesis $H_0$ and alternative hypothesis $H_1$ -->
+
+<!--   2. Calculate a *test statistic* based on one observed *random sample* -->
+
+<!--   3. *Simulate* samples under $H_0$ and calculate the statictic for the simulated sample. Repeat many times. (this constitutes our estimated *sampling distribution*) -->
+
+<!--   4. Evaluate the evidence against $H_0$ by calculating the *p-value* -->
+
+<!--   5. Make a conclusion (based on the strength of evidence against $H_0$) -->
 
 
-- **Permutation Tests for Two Groups**:
+<!-- - **Permutation Tests for Two Groups**: -->
 
-  1. State null hypothesis $H_0$ and alternative hypothesis $H_1$
+<!--   1. State null hypothesis $H_0$ and alternative hypothesis $H_1$ -->
 
-  2. Calculate the *statistic* (mean, median, proportion ...) of the two groups from the one observed *random sample*, and use the DIFFERENCE between the statistics of the two groups as the *test statistic*
+<!--   2. Calculate the *statistic* (mean, median, proportion ...) of the two groups from the one observed *random sample*, and use the DIFFERENCE between the statistics of the two groups as the *test statistic* -->
 
-  3. Shuffle the labels of the two groups (i.e. simulation under $H_0$) and calculate the *test statistic* for the simulated sample. Repeat many times.
+<!--   3. Shuffle the labels of the two groups (i.e. simulation under $H_0$) and calculate the *test statistic* for the simulated sample. Repeat many times. -->
 
-  4. Evaluate the evidence against $H_0$ by calculating the *p-value*
+<!--   4. Evaluate the evidence against $H_0$ by calculating the *p-value* -->
 
-  5. Make a conclusion (based on the strength of evidence against $H_0$)
+<!--   5. Make a conclusion (based on the strength of evidence against $H_0$) -->
+
+\newpage
 
 #### Group Presentation (50 min) :
 
@@ -63,6 +80,7 @@ You are an amateur data detective that reads studies in your free time and check
 
 ### In your presentation, it is important to:  
 
+- Have every group member speak during the presentation.
 - Give an introduction of the question
 - State the hypotheses $H_0$ and $H_1$ 
 - Specify the assumption(s) of your hypothesis test, if any
