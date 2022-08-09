@@ -80,7 +80,6 @@ You are an amateur data detective that reads studies in your free time and check
 
 ### In your presentation, it is important to:  
 
-- Have every group member speak during the presentation.
 - Give an introduction of the question
 - State the hypotheses $H_0$ and $H_1$ 
 - Specify the assumption(s) of your hypothesis test, if any
@@ -89,6 +88,13 @@ You are an amateur data detective that reads studies in your free time and check
 - Summarize your findings and interpret the results 
 - Provide limitations (optional but good practice) (e.g. sample size, study design issue)
 
+## Some things to keep in mind  
+
+- The introduction should state the overall purpose of the presentation   
+
+- Each main point should be “signaled.” Use *signal phrases* or *signposts* to transition between your points.
+
+- Every group member must speak during the presentation or marks will be deducted for participation.
 
 ## Vocabulary 
 - statistical inference 
